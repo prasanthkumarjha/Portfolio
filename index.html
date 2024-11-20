@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Portfolio, Web Developer, Prasanth Kumar Jha"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Prasanth Kumar Jha, a passionate web developer specializing in front-end and back-end technologies."
+    />
+    <title>Portfolio - Prasanth Kumar Jha</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assests/fav.png" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./">
+        <img class="logo_img" src="./assests/logo.png" alt="logo" />
+      </a>
+      <nav class="nav">
+        <ul class="nav-content">
+          <li><a class="nav-items link-highlight" href="#Home">Home</a></li>
+          <li><a class="nav-items link-highlight" href="#About">About</a></li>
+          <li><a class="nav-items link-highlight" href="#Skills">Skills</a></li>
+          <li>
+            <a class="nav-items link-highlight" href="#Certification"
+              >Certifications</a
+            >
+          </li>
+          <li>
+            <a class="nav-items link-highlight" href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-items link-highlight" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="day-night">
+        <input
+          type="radio"
+          name="toggle-day-night"
+          id="day"
+          class="hidden"
+          checked
+        />
+        <label class="toggleMode" for="day" aria-label="Toggle to Day Mode">
+          <i class="fas fa-sun"></i>
+        </label>
+        <input type="radio" name="toggle-day-night" id="night" class="hidden" />
+
+        <label class="toggleMode" for="night" aria-label="Toggle to Night Mode">
+          <i class="fas fa-moon"></i>
+        </label>
+      </div>
+    </header>
+    <div class="mobile-footer">
+      <div class="mobile-nav-icons">
+        <a href="#Home" class="mobile-nav-link">
+          <i class="fa fa-home"></i><span>Home</span>
+        </a>
+        <a href="#About" class="mobile-nav-link">
+          <i class="fa fa-user"></i><span>About</span>
+        </a>
+        <a href="#Skills" class="mobile-nav-link">
+          <i class="fa fa-cogs"></i><span>Skills</span>
+        </a>
+        <a href="#Certification" class="mobile-nav-link">
+          <i class="fa fa-book"></i><span>Certifications</span>
+        </a>
+        <a href="#Projects" class="mobile-nav-link">
+          <i class="fa fa-briefcase"></i><span>Projects</span>
+        </a>
+        <a href="#Contact" class="mobile-nav-link">
+          <i class="fa fa-envelope"></i><span>Contact</span>
+        </a>
+      </div>
+    </div>
+    <main>
+      <!-- Home Section -->
+      <section id="Home" class="home_section">
+        <div class="intro">
+          <p class="i_m">I'm</p>
+          <p class="intro_name">
+            Prasanth Kumar Jha
+            <svg
+              width="36"
+              height="36"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home__hand"
+            >
+              <path
+                d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
+                fill="#FFDD67"
+              ></path>
+              <path
+                d="M33.8996 4.88018C33.6746 4.80518 33.5246 4.80518 33.2996 4.80518C34.6496 5.33018 35.3996 6.75518 35.0996 8.25518L30.2996 32.9302L31.3496 33.1552L36.1496 8.48018C36.5246 6.75518 35.4746 5.18018 33.8996 4.88018Z"
+                fill="#EBA352"
+              ></path>
+              <path
+                d="M19.4995 32.7802H26.5495V5.55518C26.5495 3.53018 24.9745 1.80518 23.0245 1.80518C21.1495 1.80518 19.4995 3.45518 19.4995 5.55518V32.7802Z"
+                fill="#FFDD67"
+              ></path>
+              <path
+                d="M23.0995 1.80518C22.9495 1.80518 22.7245 1.80518 22.5745 1.88018C24.2995 2.18018 25.5745 3.68018 25.5745 5.55518V32.8552H26.6245V5.55518C26.6245 3.45518 25.0495 1.80518 23.0995 1.80518Z"
+                fill="#EBA352"
+              ></path>
+              <path
+                d="M15.7495 32.7054L21.7495 31.1304L15.2245 6.30541C14.7745 4.58041 13.0495 3.53041 11.3995 3.90541C9.74948 4.35541 8.77448 6.08041 9.22448 7.80541L15.7495 32.7054Z"
+                fill="#FFDD67"
+              ></path>
+              <path
+                d="M11.3995 3.90541L10.9495 4.13041C12.4495 4.05541 13.7995 5.03041 14.2495 6.60541L20.7745 31.4304L21.8245 31.1304L15.2245 6.30541C14.7745 4.58041 13.0495 3.53041 11.3995 3.90541Z"
+                fill="#EBA352"
+              ></path>
+              <path
+                d="M2.99937 10.355C1.57437 11.03 1.12437 12.83 1.87437 14.33L11.7744 34.055L16.7994 31.505L6.89937 11.78C6.14937 10.28 4.42437 9.68 2.99937 10.355Z"
+                fill="#FFDD67"
+              ></path>
+              <path
+                d="M2.99956 10.355C2.84956 10.43 2.69956 10.505 2.54956 10.655C3.82456 10.28 5.24956 10.955 5.92456 12.305L15.8246 32.03L16.7996 31.58L6.89956 11.78C6.14956 10.28 4.42456 9.68 2.99956 10.355Z"
+                fill="#EBA352"
+              ></path>
+              <path
+                d="M46.2744 22.2801C45.0744 19.9551 41.3244 20.1051 37.4994 24.3051C34.7994 27.2301 34.2744 28.2051 31.5744 28.1301V25.0551C31.5744 25.0551 25.7994 20.7801 14.3244 22.7301C14.3244 22.7301 7.79945 23.6301 7.79945 27.0801C7.79945 27.0801 6.67445 35.4051 8.99945 40.6551C12.4494 48.4551 30.1494 50.4801 35.6994 37.2051C36.8244 34.5801 39.0744 32.6301 41.0994 30.1551C43.4244 27.1551 47.5494 24.7551 46.2744 22.2801Z"
+                fill="#FFDD67"
+              ></path>
+              <path
+                d="M46.2745 22.28C46.0495 21.83 45.7495 21.53 45.3745 21.23C45.4495 21.305 45.5245 21.38 45.5245 21.53C46.7995 24.08 42.6745 26.405 40.1995 29.405C38.1745 31.88 35.9245 33.83 34.7995 36.455C29.9995 47.93 16.0495 47.93 10.1995 42.68C15.5245 48.68 30.5245 49.28 35.5495 37.205C36.6745 34.58 38.9245 32.63 40.9495 30.155C43.4245 27.155 47.5495 24.755 46.2745 22.28ZM32.3245 28.13C27.4495 26.33 18.7495 29.63 19.9495 38.405C19.9495 30.23 27.3745 28.205 31.4245 28.205C32.0245 28.13 32.3245 28.13 32.3245 28.13Z"
+                fill="#EBA352"
+              ></path>
+            </svg>
+          </p>
+          <p class="intro_desg">Web Developer</p>
+          <ul class="social-media">
+            <li>
+              <a href="mailto:prasanthkumarjha@gmail.com">
+                <i class="fa fa-envelope fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/prasanthkumarjha" target="_blank">
+                <i class="fab fa-2x fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com/prasanthkumarjha" target="_blank">
+                <i class="fab fa-2x fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/prasanthkrjha/"
+                target="_blank"
+              >
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+          <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+        <div class="intro-img">
+          <img src="./assests/profile.png" alt="Profile Picture" />
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="About" class="about">
+        <div class="about_container">
+          <!-- Left Part -->
+          <div class="about_img">
+            <img
+              class="profile_img"
+              src="./assests/about.jpg"
+              alt="Portrait of Prasanth Kumar Jha"
+            />
+          </div>
+          <!-- Right Part -->
+          <div class="about_details">
+            <h1 class="about_heading">About Me</h1>
+            <p class="about_text">
+              I am a dedicated and detail-oriented web developer with a passion
+              for creating interactive and user-friendly digital experiences.
+              With expertise in both front-end and back-end technologies, I
+              specialize in building responsive websites and web applications
+              that not only function flawlessly but also deliver exceptional
+              user experiences.
+
+              <input class="hidden" type="checkbox" id="about-read-more" />
+              <label class="read-more" for="about-read-more">Read More</label>
+              <span class="hidden-text about_text">
+                I have experience working with a wide range of technologies,
+                including HTML, CSS, JavaScript, React, Node.js, and MongoDB,
+                which allow me to seamlessly translate design ideas into
+                fully-functional, scalable applications. My problem-solving
+                mindset and continuous learning approach drive me to stay
+                updated with the latest trends in web development.
+              </span>
+              <label class="read-less" for="about-read-more">Read Less</label>
+            </p>
+            <div class="about_buttons">
+              <a href="resume.pdf" class="btn" download>Download Resume</a>
+              <a href="#Contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="Skills" class="skills">
+        <h1 class="section-heading">Skills</h1>
+        <div class="skills_container">
+          <div class="skills_icon">
+            <img
+              class="skills_img"
+              src="./assests/skills/html.png"
+              alt="html"
+            /><img
+              class="skills_img"
+              src="./assests/skills/css.png"
+              alt="css"
+            /><img
+              class="skills_img"
+              src="./assests/skills/js.png"
+              alt="js"
+            /><img
+              class="skills_img"
+              src="./assests/skills/react.png"
+              alt="react"
+            /><img
+              class="skills_img"
+              src="./assests/skills/node.png"
+              alt="node"
+            /><img
+              class="skills_img"
+              src="./assests/skills/mongodb.png"
+              alt="mongodb"
+            /><img
+              class="skills_img"
+              src="./assests/skills/api.png"
+              alt="api"
+            /><img
+              class="skills_img"
+              src="./assests/skills/git.png"
+              alt="git"
+            />
+          </div>
+          <div class="skill_item">
+            <h3>HTML</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 90%">90%</div>
+            </div>
+          </div>
+          <div class="skill_item">
+            <h3>CSS</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 85%">85%</div>
+            </div>
+          </div>
+          <div class="skill_item">
+            <h3>JavaScript</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="skill_item">
+            <h3>ReactJS</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 75%">75%</div>
+            </div>
+          </div>
+          <div class="skill_item">
+            <h3>MongoDB</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 85%">85%</div>
+            </div>
+          </div>
+          <div class="skill_item">
+            <h3>Node JS</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--width: 80%">80%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Certification Section -->
+      <section id="Certification" class="Certification">
+        <h1 class="section-heading">Certificates</h1>
+        <div class="Certification-container">
+          <div class="certificate-container">
+            <h2>Java SE 8 Programming</h2>
+            <img
+              class="certificate-img"
+              src="./assests/certificates/certificate1.jpg"
+              alt="Java SE 8 Programming Certificate"
+            />
+            <p>
+              This certificate validates my proficiency in Java SE 8
+              programming, demonstrating a solid understanding of core Java
+              concepts, object-oriented programming principles, and advanced
+              Java features. It showcases my ability to develop efficient and
+              scalable Java applications.
+            </p>
+            <a
+              class="btn"
+              href="./assests/certificates/certificate1.jpg"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+          <div class="certificate-container">
+            <h2>MERN Stack Development</h2>
+            <img
+              class="certificate-img"
+              src="./assests/certificates/certificate2.jpg"
+              alt="MERN Stack Development Certificate"
+            />
+            <p>
+              This certification represents my expertise in the MERN stack,
+              which includes MongoDB, Express.js, React, and Node.js. It
+              highlights my skills in building full-stack web applications, from
+              front-end interfaces to server-side logic and database management.
+            </p>
+            <a
+              class="btn"
+              href="./assests/certificates/certificate2.jpg"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+          <div class="certificate-container">
+            <h2>Fundamentals of JavaScript</h2>
+            <img
+              class="certificate-img"
+              src="./assests/certificates/certificate3.jpg"
+              alt="Fundamentals of JavaScript Certificate"
+            />
+            <p>
+              This certificate demonstrates my foundational knowledge of
+              JavaScript, covering essential programming concepts, syntax, and
+              practical applications. It confirms my ability to create
+              interactive web features and implement dynamic client-side
+              functionality.
+            </p>
+            <a
+              class="btn"
+              href="./assests/certificates/certificate3.jpg"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section id="Projects" class="projects">
+        <h1 class="section-heading">Projects</h1>
+        <div class="projects_container">
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img
+                  src="./assests/projects/mind-over-matter.png"
+                  alt="Mind Over Matter"
+                />
+              </div>
+              <div class="project_details">
+                <h3>Mind Over Matter</h3>
+                <p>
+                  Mind Over Matter is a personal development blog, focusing on
+                  mental reprogramming and unlocking the potential of the
+                  subconscious mind. With a background in computer applications
+                  and a passion for personal growth.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img src="./assests/projects/Tech-Blog.jpg" alt="Tech Blog" />
+              </div>
+              <div class="project_details">
+                <h3>Tech Innovations</h3>
+                <p>
+                  Tech Innovations is a blog that dives deep into the latest
+                  trends in technology, including AI, blockchain, and robotics.
+                  Curated by industry experts, this blog offers insights and
+                  detailed analysis on emerging technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img
+                  src="./assests/projects/Creative-Journey.jpg"
+                  alt="Creative Journey"
+                />
+              </div>
+              <div class="project_details">
+                <h3>Creative Journey</h3>
+                <p>
+                  Creative Journey is an online platform dedicated to helping
+                  aspiring artists and designers discover their creative
+                  potential. Offering tutorials, interviews, and creative
+                  challenges, this project aims to inspire and educate the next
+                  generation of creators.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img
+                  src="./assests/projects/Fit-Lifestyle.jpg"
+                  alt="Fit Lifestyle"
+                />
+              </div>
+              <div class="project_details">
+                <h3>Fit Lifestyle</h3>
+                <p>
+                  Fit Lifestyle is a health and wellness blog that focuses on
+                  fitness routines, nutrition plans, and mental well-being. This
+                  platform helps individuals achieve a balanced and healthy
+                  lifestyle by providing tips and guides for both physical and
+                  mental health.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img
+                  src="./assests/projects/Eco-Warrior.jpg"
+                  alt="Eco Warrior"
+                />
+              </div>
+              <div class="project_details">
+                <h3>Eco Warrior</h3>
+                <p>
+                  Eco Warrior is an environmental awareness initiative dedicated
+                  to promoting sustainable living practices. It offers
+                  information on eco-friendly products, renewable energy, and
+                  practical steps individuals can take to reduce their carbon
+                  footprint.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <div class="project-card-container">
+              <div class="project_img">
+                <img
+                  src="./assests/projects/Financial-Freedom.jpg"
+                  alt="Financial Freedom"
+                />
+              </div>
+              <div class="project_details">
+                <h3>Financial Freedom</h3>
+                <p>
+                  Financial Freedom is a blog designed to help readers achieve
+                  their financial goals. It covers topics like budgeting,
+                  investment strategies, and personal finance tips, aiming to
+                  guide people towards smarter financial decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="Contact" class="contact">
+        <h1 class="section-heading">Contact Me</h1>
+        <div class="contact-container">
+          <!-- Contact Details -->
+          <div class="contact-details">
+            <!-- Phone -->
+            <div class="details-content">
+              <h3 class="contact-headings">
+                <i class="fa fa-phone"></i> Phone
+              </h3>
+              <a href="tel:+11234567890"> +1 (123) 456-7890 </a>
+            </div>
+            <!-- Email -->
+            <div class="details-content">
+              <h3 class="contact-headings">
+                <i class="fa fa-envelope"></i> Email
+              </h3>
+              <p>
+                <a href="mailto:prasanthkumarjha@gmail.com"
+                  >prasanthkumarjha@gmail.com</a
+                >
+              </p>
+            </div>
+            <!-- Social Media -->
+            <div class="details-content">
+              <h3 class="contact-headings">
+                <i class="fa fa-share-alt"></i> Follow Me
+              </h3>
+              <ul class="social-media">
+                <li>
+                  <a
+                    href="https://twitter.com/prasanthkumarjha"
+                    target="_blank"
+                  >
+                    <i class="fab fa-twitter"></i> Twitter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://facebook.com/prasanthkumarjha"
+                    target="_blank"
+                  >
+                    <i class="fab fa-facebook"></i> Facebook
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/prasanthkrjha/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Contact Form -->
+          <div class="contact_form">
+            <form>
+              <div class="input_group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="input_group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="input_group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_about">
+          <h3>About</h3>
+          <p>
+            PJHA is dedicated to creating beautiful and functional web solutions
+            with a focus on user experience, accessibility, and modern design
+            trends.
+          </p>
+        </div>
+
+        <div class="footer_links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="resume.pdf" download>Download Resume</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_contact">
+          <h3>Contact</h3>
+          <p class="footer-btn">
+            Email:
+            <a class="btn" href="mailto:prasanthkumarjha@gmail.com"
+              >prasanthkumarjha@gmail.com</a
+            >
+          </p>
+          <p class="footer-btn">
+            Phone:
+            <a class="btn" href="tel:+11234567890"> +1 (123) 456-7890</a>
+          </p>
+        </div>
+      </div>
+
+      <p>&copy; 2024 PJHA. All rights reserved.</p>
+    </footer>
+    <script>
+      // Function to toggle dark mode
+      function toggleDarkMode() {
+        const nightMode = document.getElementById("night").checked;
+        document.body.classList.toggle("dark-mode", nightMode);
+      }
+
+      // Attach event listeners after the DOM is loaded
+      window.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("day")
+          .addEventListener("change", toggleDarkMode);
+        document
+          .getElementById("night")
+          .addEventListener("change", toggleDarkMode);
+        toggleDarkMode(); // Set the initial mode based on current selection
+      });
+    </script>
+  </body>
+</html>
